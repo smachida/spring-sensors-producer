@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: spring-sensors-publisher
-  description: Spring Sensors Rabbit Producer
+  name: spring-sensors-producer
+  description: Spring Sensors - Producer
   tags:
     - app-accelerator
     - java
     - spring
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors-rabbit'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors-producer'
 spec:
   type: service
   lifecycle: experimental
