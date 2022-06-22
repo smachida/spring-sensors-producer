@@ -7,11 +7,11 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/sample-accelerators/spring-sensors-rabbit.git
+      url: https://github.com/smachida/spring-sensors-producer.git
       ref:
         branch: main
   serviceClaims:
-    - name: rmq
+    - name: rmq-1
       ref:
         apiVersion: rabbitmq.com/v1beta1
         kind: RabbitmqCluster
